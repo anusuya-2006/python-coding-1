@@ -16,7 +16,7 @@ students = {}
 n = int(input("Enter number of students: "))
 
 for i in range(n):
-    name = input("\nEnter student name: ")
+    name = input("\n Enter student name: ")
     marks = float(input("Enter marks (out of 100): "))
     grade = calculate_grade(marks)
     students[name] = grade

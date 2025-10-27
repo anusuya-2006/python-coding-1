@@ -13,11 +13,11 @@ def calculate_grade(marks):
         return "F"
 
 students = {}
-n = int(input("Enter number of students: "))
+n = int(input("Enter number of students:"))
 
 for i in range(n):
-    name = input("\n Enter student name: ")
-    marks = float(input("Enter marks (out of 100): "))
+    name = input("\n Enter student name:")
+    marks = float(input("Enter marks (out of 100):"))
     grade = calculate_grade(marks)
     students[name] = grade
 

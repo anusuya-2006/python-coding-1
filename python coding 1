@@ -1,5 +1,6 @@
-def calculate_grade(marks):
-    if marks >= 90:
+def calculate_grade(marks):# create a function 
+# using conditional statements 
+    if marks >= 90: 
         return "A+"
     elif marks >= 80:
         return "A"
@@ -12,10 +13,10 @@ def calculate_grade(marks):
     else:
         return "F"
 
-students = {}
+students = {} # create dictionary name are students 
 n = int(input("Enter number of students:"))
 
-for i in range(n):
+for i in range(n): # loop concept using for loop
     name = input("\n Enter student name:")
     marks = float(input("Enter marks (out of 100):"))
     grade = calculate_grade(marks)
